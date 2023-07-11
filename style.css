@@ -10,100 +10,111 @@
         border-radius: 4px;
         cursor: pointer;
     }
+
     a:hover {
         background-color: blueviolet;
     }
+
     a:active {
         background-color: #3e8e41;
     }
-         button{
-                display: inline-block;
-                 padding: 10px 20px;
-                 font-size: 16px;
-                 text-align: center;
-                 text-decoration: none;
-                 background-color: #4CAF50;
-                 color: white;
-                 border: none;
-                 border-radius: 4px;
-                 cursor: pointer;
-                 margin: 34px auto;
-                 }
-             button.addTable {
-             display: inline-block;
-             padding: 10px 20px;
-             font-size: 14px;
-             text-align: center;
-             text-decoration: none;
-             background-color: #4CAF50;
-             color: white;
-             border: none;
-             border-radius: 4px;
-             cursor: pointer;
-             margin: 34px auto;
-         }
-        button:hover {
-            background-color:#3e8e41;
-        }
-        button:active {
-            background-color: #3e8e41;
-        }
-        input.oneMorebtn {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 9px;
-            margin: 12px 0px;
-        }
 
-        input {
-            width: 200px;
-            height: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 5px;
-            font-size: 14px;
-            color: #333;
-            background-color: #f5f5f5
-        }
-        input::placeholder {
-          color: #999;
-        }
-        input:focus {
-          outline: none;
-          border-color: #3e8e41;
-          box-shadow: 0 0 5px #0066cc;
-        }
-            option {
-                  padding: 8px;
-                  font-size: 14px;
-                }
-            .buttonContainer {
-                    display: flex;
-                    justify-content: start;
-                    gap: 19px;
-                    align-items: center;
-            }
-            select {
-                font-family: Arial, sans-serif;
-                font-size: 14px;
-                color: #333333;
-                background-color: #f2f2f2;
-                color: #333333;
-                padding: 5px;
-                margin-bottom: 10px;
-                border: 1px solid #cccccc;
-                border-radius: 4px;
-                margin: 0px 0px;
-            }
-            select:hover,
-            select:focus {
-              background-color: #e6e6e6;
-            }
+    button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 34px auto;
+    }
 
-            select,label:disabled {
-              opacity: 0.5;
-              cursor: not-allowed;
-            }
+    button.addTable {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 34px auto;
+    }
 
+    button:hover {
+        background-color: #3e8e41;
+    }
 
+    button:active {
+        background-color: #3e8e41;
+    }
 
+    input.oneMorebtn {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+        margin: 12px 0px;
+    }
+
+    input {
+        width: 200px;
+        height: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 14px;
+        color: #333;
+        background-color: #f5f5f5
+    }
+
+    input::placeholder {
+        color: #999;
+    }
+
+    input:focus {
+        outline: none;
+        border-color: #3e8e41;
+        box-shadow: 0 0 5px #0066cc;
+    }
+
+    option {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .buttonContainer {
+        display: flex;
+        justify-content: start;
+        gap: 19px;
+        align-items: center;
+    }
+
+    select {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        color: #333333;
+        background-color: #f2f2f2;
+        color: #333333;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        margin: 0px 0px;
+    }
+
+    select:hover,
+    select:focus {
+        background-color: #e6e6e6;
+    }
+
+    select,
+    label:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
