@@ -15,7 +15,7 @@
     <form action="/addTableAndColumn" method="post">
         <div>
             <label>Select a DB Name :</label>
-            <select style="width: 200px" class="AllDbList" name="DB_name">
+            <select  class="AllDbList" name="DB_name">
                     <?php foreach ($allDBList as $allDbs) : ?>
                         <option ><?php echo $allDbs['Database']; ?></option>
                     <?php endforeach; ?>
@@ -26,7 +26,10 @@
             <input type="text" name="table_name" placeholder="Enter a table name">
             <button class="addTable">Create Table</button>
         </div>
-        <div class="moreBtncontainer">
+<!--        <div>-->
+<!--      -->
+<!--              -->
+<!--        </div>-->
             <div class="buttonContainer"></div>
         </div>
     </form>

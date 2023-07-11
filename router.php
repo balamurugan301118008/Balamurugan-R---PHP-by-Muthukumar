@@ -46,7 +46,7 @@ class router
                 $this->controller->createTables();
                 break;
                 case 'addTableAndColumns':
-                $this->controller->addTableAndColumns();
+                $this->controller->addTableAndColumns($_POST);
                 break;
                     case 'addRows':
                     $this->controller->InsertRows();

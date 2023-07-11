@@ -8,6 +8,7 @@ function oneMorebtn(length){
         moreBtn.placeholder = "Enter a column name";
 
         let dataTypes = document.createElement('select')
+        dataTypes.name = "dataType[]"
         let selectdataTypes = document.createElement("option");
         selectdataTypes.innerText = "None";
         dataTypes.add(selectdataTypes);
@@ -17,7 +18,7 @@ function oneMorebtn(length){
         dataTypes.add(int);
 
         let varchar = document.createElement("option");
-        varchar.innerText = "Varchar";
+        varchar.innerText = "Varchar(255)";
         dataTypes.add(varchar);
 
         let timestamp = document.createElement("option");
@@ -25,7 +26,7 @@ function oneMorebtn(length){
         dataTypes.add(timestamp);
 
         let date = document.createElement("option");
-        date.innerText = "Date";
+        date.innerText = "DATETIME";
         dataTypes.add(date);
 
         document.querySelector('.buttonContainer').appendChild(moreBtn);
