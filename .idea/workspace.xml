@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c86d6ef-e3a7-4ee8-8706-e6c878f249f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Model/Usermodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Model/Usermodel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../View/view.createTables.php" beforeDir="false" afterPath="$PROJECT_DIR$/../View/view.createTables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../moreBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/../moreBtn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../router.php" beforeDir="false" afterPath="$PROJECT_DIR$/../router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Usermodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Usermodel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/view.InsertRow.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/view.InsertRow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/view.createTables.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/view.createTables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/view.databaseForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/view.databaseForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/view.home.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/view.home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moreBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/moreBtn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notfound.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +26,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2SMeU8gTxfUSikljCm5tyoak2VE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,6 +60,7 @@
       <workItem from="1688980598949" duration="7453000" />
       <workItem from="1688988329297" duration="726000" />
       <workItem from="1689002705803" duration="7760000" />
+      <workItem from="1689053558433" duration="19147000" />
     </task>
     <servers />
   </component>
@@ -61,21 +68,35 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="449" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1689074109074">
+      <screen x="66" y="27" width="1300" height="741" />
+    </state>
+    <state x="449" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/66.27.1300.741@66.27.1300.741" timestamp="1689074109074" />
     <state x="414" y="117" width="641" height="568" key="NewPhpClassDialog" timestamp="1688961196214">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="414" y="117" width="641" height="568" key="NewPhpClassDialog/66.27.1300.741@66.27.1300.741" timestamp="1688961196214" />
-    <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1688987256150">
+    <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog" timestamp="1689074193667">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog/66.27.1300.741@66.27.1300.741" timestamp="1688987256150" />
-    <state x="380" y="174" width="672" height="677" key="run.anything.popup" timestamp="1689006692158">
+    <state x="511" y="323" width="399" height="156" key="NewPhpFileDialog/66.27.1300.741@66.27.1300.741" timestamp="1689074193667" />
+    <state x="380" y="174" width="672" height="677" key="run.anything.popup" timestamp="1689064498361">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
-    <state x="380" y="174" width="672" height="677" key="run.anything.popup/66.27.1300.741@66.27.1300.741" timestamp="1689006692158" />
+    <state x="380" y="174" width="672" height="677" key="run.anything.popup/66.27.1300.741@66.27.1300.741" timestamp="1689064498361" />
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1688985538473">
       <screen x="66" y="27" width="1300" height="741" />
     </state>
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/66.27.1300.741@66.27.1300.741" timestamp="1688985538473" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/connection.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,18 +1,38 @@
-    a {
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 16px;
-        text-align: center;
-        text-decoration: none;
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
 
+body {
+    background-color: #afdef1;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #8d8d8d;
+    color: #c7fffd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 56px 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+h1 {
+    background-color: #d1f9f5;
+    height: 61px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
     a:hover {
-        background-color: blueviolet;
+        transition: ease-in-out 0.5s;
+        background-color: cadetblue;
+        color: white;
     }
 
     a:active {
@@ -54,9 +74,8 @@
     button:active {
         background-color: #3e8e41;
     }
-
     input.oneMorebtn {
-        display: flex;
+        display: inline;
         flex-wrap: wrap;
         gap: 9px;
         margin: 12px 0px;
@@ -87,15 +106,18 @@
         padding: 8px;
         font-size: 14px;
     }
-
-    .buttonContainer {
-        display: flex;
-        justify-content: start;
-        gap: 19px;
-        align-items: center;
-    }
-
     select {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        background-color: #ffffff;
+        color: #0a0a0a;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        margin: 0px 0px;
+    }
+    select.dataType{
         font-family: Arial, sans-serif;
         font-size: 14px;
         color: #333333;
@@ -105,9 +127,8 @@
         margin-bottom: 10px;
         border: 1px solid #cccccc;
         border-radius: 4px;
-        margin: 0px 0px;
+        margin: 0px 13px;
     }
-
     select:hover,
     select:focus {
         background-color: #e6e6e6;
@@ -117,4 +138,41 @@
     label:disabled {
         opacity: 0.5;
         cursor: not-allowed;
+    }
+
+    form.databaseContainer {
+        display: grid;
+        text-align: center;
+        place-content: center;
+        height: 41vh;
+        background-color: white;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 7px;
+    }
+    a.back {
+        color: steelblue;
+        background: snow;
+    }
+    a.back:hover{
+        transition: ease-in-out 0.5s;
+        background-color: steelblue;
+        color: snow;
+    }
+    label {
+        font-size: 21px;
+    }
+    form.tableContainer {
+        text-align: center;
+        margin: 46px auto;
+    }
+    button.addColumn {
+        position: relative;
+        bottom: 72px;
+        left: 130px;
+        color: #002e54;
+        background-color: #fff0d4;
+    }
+    .actions {
+        text-align: center;
     }

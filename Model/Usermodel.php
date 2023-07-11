@@ -27,41 +27,26 @@ class UserModel extends DataBase{
         ");
         header("location:/");
     }
-//        print_r($dbName);
-//        echo '\n';
-//        print_r($tableName);
-//        print_r($column);
-//        print_r($dataTypes);
+    public function useDBAndShowtables(){
+        $dbName = $_POST['DB_name'];
+        $fetchTables = $this->db->query("
+        SELECT TABLE_NAME FROM 
+        INFORMATION_SCHEMA.TABLES   
+        WHERE TABLE_SCHEMA = '$dbName'
+         ");
+        $datas = $fetchTables->fetchAll(PDO::FETCH_OBJ);
+        return $datas;
+    }
 
-
-
-
-//        header("location:/");
-////        $dbName = $_POST['DB_name'];
-////        $tableName=  $_POST['table_name'];
-////        $columnOne= $_POST['columnName'][0];
-////        $columnTwo= $_POST['columnName'][1];
-////        $columnThree= $_POST['columnName'][2];
-////        $columnFour= $_POST['columnName'][3];
-////        $columnFive= $_POST['columnName'][4];
-////        $columnSix= $_POST['columnName'][5];
-////        $sql = "use $dbName; CREATE TABLE $tableName (
-//        id int not null AUTO_INCREMENT,
-//        $columnOne varchar (255),
-//        $columnTwo varchar(255),
-//        $columnThree varchar(255),
-//        $columnFour varchar(255),
-//        $columnFive varchar(255),
-//        $columnSix varchar(255),
-//         primary key(id)
-//        )";
-
-
-//        }
-//        public function insertColumns(){
-//            $sql = "use $dbName; CREATE TABLE $tableName (
-//                $column $dataTypes
-//                )";
-//            $this->db->query($sql);
-//        }
+    public function getColumn(){
+        $tableName = $_POST['tableName'];
+        $fetchColumns = $this->db->query("
+        SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='$tableName'
+         ");
+        $column = $fetchColumns->fetchAll(PDO::FETCH_OBJ);
+        return $column;
+    }
+    public function insertAllValues(){
+        var_dump($_POST);
+    }
 }

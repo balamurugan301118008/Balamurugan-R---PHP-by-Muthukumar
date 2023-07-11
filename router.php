@@ -48,11 +48,20 @@ class router
                 case 'addTableAndColumns':
                 $this->controller->addTableAndColumns($_POST);
                 break;
-                    case 'addRows':
-                    $this->controller->InsertRows();
+                case 'addRows':
+                $this->controller->InsertRowsForm();
+                break;
+                case 'getDB':
+                $this->controller->getDb();
+                break;
+                case 'getColumns':
+                $this->controller->getColumns();
+                break;
+                case 'insertValues':
+                $this->controller->insertValues();
+                break;
                 }
             }
-
         }
     }
 }

@@ -1,5 +1,4 @@
 
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,7 +11,7 @@
 </head>
 <body>
 <h1>Create tabel are here ..</h1>
-    <form action="/addTableAndColumn" method="post">
+    <form action="/addTableAndColumn" method="post" class="tableContainer">
         <div>
             <label>Select a DB Name :</label>
             <select  class="AllDbList" name="DB_name">
@@ -26,15 +25,14 @@
             <input type="text" name="table_name" placeholder="Enter a table name">
             <button class="addTable">Create Table</button>
         </div>
-<!--        <div>-->
-<!--      -->
-<!--              -->
-<!--        </div>-->
-            <div class="buttonContainer"></div>
+        
+        <div class="buttonContainer">
+
         </div>
     </form>
-<button onclick="oneMorebtn(1)">Add More Column..</button>
-<a href="/">Back to home</a>
+    <a href="/" class="back">Back to home</a>
+<button onclick="oneMorebtn(1)" class="addColumn">Add More Column..</button>
+
 <script src="../moreBtn.js"></script>
 </body>
 </html>

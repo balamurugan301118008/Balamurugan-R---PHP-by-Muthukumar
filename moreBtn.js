@@ -1,6 +1,7 @@
 
 "below the code for the createtable page";
 function oneMorebtn(length){
+
     for(let i = 0; i< length; i++){
         let moreBtn = document.createElement('input');
         moreBtn.name = "columnName[]"
@@ -9,8 +10,9 @@ function oneMorebtn(length){
 
         let dataTypes = document.createElement('select')
         dataTypes.name = "dataType[]"
+        dataTypes.className = "dataType";
         let selectdataTypes = document.createElement("option");
-        selectdataTypes.innerText = "None";
+        selectdataTypes.innerText = "Select one";
         dataTypes.add(selectdataTypes);
 
         let int = document.createElement("option");
@@ -28,9 +30,13 @@ function oneMorebtn(length){
         let date = document.createElement("option");
         date.innerText = "DATETIME";
         dataTypes.add(date);
+        
+        let container = document.createElement('div')
+        container.className = 'container'
 
-        document.querySelector('.buttonContainer').appendChild(moreBtn);
-        document.querySelector('.buttonContainer').appendChild(dataTypes);
-
+        let btncontainer  =  document.querySelector('.buttonContainer');
+        container.appendChild(moreBtn);
+        container.appendChild(dataTypes)
+        btncontainer.appendChild(container) 
     }
 }
